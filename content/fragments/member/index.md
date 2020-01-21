@@ -4,4 +4,5 @@ weight = 100
 
 title = "Member"
 background = "light"
+url = "/team"
 +++

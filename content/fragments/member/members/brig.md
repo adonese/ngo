@@ -1,15 +1,13 @@
 +++
-title = "Nizar"
-weight = 30
+title = "Mr. Brig Gen Moh. Elmahdi"
+weight = 20
 date = "2017-10-17"
 
-position = "Chairperson"
+position = "Gopherineer"
 reports_to = "Lead Gophineer"
 lives_in = "[Iceland](https://www.google.com/maps/place/Iceland/)"
 scope = [
-  "Gopherineering for various tasks",
-  "Contributor for [Goper Team A](#)",
-  "Gopher Community Member"
+"Protection", "Child Protection"
 ]
 
 [[icons]]
@@ -28,7 +26,7 @@ scope = [
   url = "#"
 
 [asset]
-  image = "avatar2.png"
+  image = "avatar1.png"
 +++
 
 Long description goes here...

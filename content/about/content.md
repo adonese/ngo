@@ -6,7 +6,15 @@ weight = 100
 #background = ""
 
 title = "About KCG"
-#subtitle = ""
+subtitle = ""
+
+[sidebar]
+  #title = "KCG"
+  align = "left"
+  #sticky = true # Default is false
+  content = """
+  *If I were in any case wiser than the others; it is because I know my ignorance, whilst others didn't*
+  """
 +++
 
 Knowledge Consultancy Group (KCG) is a leading development research consulting group registered in Sudan, Uganda, Ethiopia and South Sudan. We offer the best research expertise in the region, with the right mix of competent professional staff.

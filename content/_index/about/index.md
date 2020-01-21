@@ -13,4 +13,6 @@ KCG Consultancy Group (KCG) is a leading development research consulting group r
 
 To provide broad range of quality developmental research, training and capacity building packages, strategic planning services for the humanitarian actors for N/INGOs, UN agencies, private and cooperative sectors in MENA and Horn of Africa.
 
-<a href="/about">Learn More About Us</a>
+<a class="btn btn-lg btn-primary" href="/about/">
+Learn More
+</a>
