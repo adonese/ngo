@@ -13,22 +13,22 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="description" content="Container for a React Component">
-  <meta property="og:title" content="React Portal &amp;middot; Okkur - Syna">
+  <meta property="og:title" content="React Portal &amp;middot; Knowledge Consultancy Group">
   <meta property="og:url" content="/fragments/react-portal/">
   <meta property="og:description" content="Container for a React Component">
-  <meta property="og:site_name" content="Okkur - Syna">
+  <meta property="og:site_name" content="Knowledge Consultancy Group">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="React Portal &amp;middot; Okkur - Syna" />
+  <meta name="twitter:title" content="React Portal &amp;middot; Knowledge Consultancy Group" />
   <meta name="twitter:description" content="Container for a React Component">
   <meta name="twitter:url" content="/fragments/react-portal/" />
         <meta property="og:image" content="">
         <meta name="twitter:image" content="">
-  <meta name="author" content="Okkur Labs">
+  <meta name="author" content="Solus">
 
   <meta name="generator" content="Hugo 0.62.2" />
 
-  <title>React Portal &middot; Okkur - Syna</title>
+  <title>React Portal &middot; Knowledge Consultancy Group</title>
 
   <!-- Theme Styles -->
   <style>
@@ -390,32 +390,17 @@ html {
   <script src="/scripts/syna-head.min.0757f18970a0a32d5acac5a2accc5fe82f787821866c545d9ed17ca765f291a3.js"></script>
       <script src='/counter.js'></script></head>
 <body class="bg-secondary">
-    <!-- Navigation --><nav class="overlay fragment navbar navbar-expand-lg py-2 scroll-spy bg-dark navbar-dark" id="nav" role="navigation" style='position: sticky; top: 0; z-index: 10000 !important;'>
+    <!-- Navigation --><nav class="overlay fragment navbar navbar-expand-lg py-2 scroll-spy bg-light navbar-light" id="nav" role="navigation" style='position: sticky; top: 0; z-index: 10000 !important;'>
   <div class="container">
       <a class="navbar-brand py-0" href="/#">
-        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Syna">
+        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="KCG">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="navbar-collapse justify-content-between collapse show" id="navbarCollapse">
+    <div class="navbar-collapse justify-content-end collapse show" id="navbarCollapse">
       <ul class="navbar-nav"><li class="nav-item">
-              <a href="/"
-                  class="nav-link">
-                Home
-              </a>
-            </li><li class="nav-item">
-              <a href="/fragments"
-                  class="nav-link">
-                Fragments
-              </a>
-            </li><li class="nav-item">
-              <a href="/docs"
-                  class="nav-link">
-                Docs
-              </a>
-            </li><li class="nav-item">
-              <a href="/fragments/member"
+              <a href="/team"
                   class="nav-link">
                 Team
               </a>
@@ -429,34 +414,18 @@ html {
                   class="nav-link">
                 Contact
               </a>
+            </li><li class="nav-item">
+              <a href="/services"
+                  class="nav-link">
+                Services
+              </a>
             </li>
       </ul>
-        <div class="search-container position-relative">
-          <form action="/search" class="my-0">
-            <div class="input-group my-0">
-              <input type="text" class="form-control py-1" id="search-query-nav" name="s" placeholder="Search...">
-              <div class="input-group-append">
-                <button class="btn btn-primary" title="Search"><i class="fa fa-search"></i></button>
-              </div>
-            </div>
-          </form>
-          <div class="search-results-container">
-            <div class="col p-0">
-              <div id="search-results-nav" class="col px-0 results"></div>
-            </div>
-          </div>
-        </div>
     </div>
   </div>
-    <div class="d-none d-lg-block pl-auto">
-      <a class="btn btn-light ignore-color-change" href="https://github.com/okkur/syna" role="button" title="Github">
-        <i class="fab fa-github mr-2"></i>
-        Star
-      </a>
-    </div>
 </nav>
 
-  <nav aria-label="breadcrumb" class="overlay navbar breadcrumb-container navbar-expand-lg pt-2 bg-light navbar-dark" id="nav">
+  <nav aria-label="breadcrumb" class="overlay navbar breadcrumb-container navbar-expand-lg pt-2 bg-light navbar-light" id="nav">
     <div class="container">
       <ol class="breadcrumb mb-0 py-1"><li class="breadcrumb-item active"ZgotmplZ>
                 <a href="/fragments/">Fragments showcase</a>
@@ -468,50 +437,6 @@ html {
   title="Back to top"
   ><i class="fas fa-angle-up"></i><span class="sr-only">Back to top</span>
 </div>
-
-<script id="search-empty-template-nav" type="text/x-js-template">
-  <p class="p-2">Please enter a word or phrase above</p>
-</script>
-<script id="search-no-results-template-nav" type="text/x-js-template">
-  <p class="p-2">No matches found</p>
-</script>
-<script id="search-result-template-nav" type="text/x-js-template">
-  <a href="${link}" id="summary-${key}" class="result ignore-color-change">
-    <div class="p-2">
-      <h5>${title}</h5>
-      <p class="m-0 text-secondary">${snippet}</p>
-      ${ isset tags }<p>Tags: ${tags}</p>${ end }
-      ${ isset categories }<p>Categories: ${categories}</p>${ end }
-    </div>
-  </a>
-</script>
-
-<script>
-  var fragmentName = "nav";
-  window.syna.api.register('search', 'search-' + fragmentName, {
-    searchInput: '#search-query-nav',
-    resultsContainer: '#search-results-nav',
-    template: '#search-result-template-nav',
-    noResults: '#search-no-results-template-nav',
-    empty: '#search-empty-template-nav',
-  });
-
-  var resultsContainer = document.querySelector('.search-results-container');
-  document.querySelector('#search-query-nav').addEventListener('input', function(e) {
-    if (e.target.value.length) {
-      resultsContainer.classList.add('show');
-    } else {
-      resultsContainer.classList.remove('show');
-    }
-  });
-
-  document.addEventListener('click', function(e) {
-    if (!document.querySelector('.search-container').contains(e.target)) {
-      document.querySelector('#search-query-nav').value = '';
-      resultsContainer.classList.remove('show');
-    }
-  });
-</script>
 <!-- Content -->
 <section id="index" class="fragment content-fragment">
     <div class="container-fluid bg-light overlay">
@@ -612,22 +537,9 @@ An easy way to make sure of that is to use the <code>config</code> fragment.</p>
 
   <div class="row">
     <div class="col-md m-2 text-body">
-        <h4></h4>
-        <a href="">
-          <img src="/images/logo.svg" class="img-fluid w-50" alt="Logo Subtext">
-        </a>
-        <div class="row justify-content-left ml-0">
-            <span class="fa-stack fa-2x mt-3 mr-1" title="github">
-              <a href="https://git.okkur.org/syna" class="ignore-color-change">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-github fa-stack-2x fa-stack-1x fa-fw text-light"></i>
-                <span class="sr-only">github</span>
-              </a>
-            </span>
-        </div>
     </div>
     <div class="col-md m-2 text-body">
-        <h4>Further Resources</h4>
+        <h4>About</h4>
         <ul class="nav flex-column">
               <li class="nav-item">
                 <a class="nav-link p-0 display-5" href="https://syna.okkur.org/demo">Getting Started</a>
@@ -638,8 +550,10 @@ An easy way to make sure of that is to use the <code>config</code> fragment.</p>
         </ul>
     </div>
     <div class="col-md m-2 text-body">
-        <div><h4 id="syna-theme">Syna Theme</h4>
-<p>Highly customizable open source theme for Hugo based static websites</p>
+        <div><h4 id="location">Location</h4>
+<p>Alamart St. 53,</p>
+<p>11111 Khartoum</p>
+<p>Sudan</p>
 </div>
     </div>
   </div>
@@ -656,7 +570,7 @@ An easy way to make sure of that is to use the <code>config</code> fragment.</p>
         <div class="row mx-0 my-2 justify-content-center text-center text-lg-none text-white">
           <div class="row mx-0 mr-lg-auto justify-content-center">
               <div class="col-auto px-1 copyright-legal">© Copyright&nbsp;2020</div>
-              <div class="col-auto px-0 copyright-by"> by  Okkur Labs</div>
+              <div class="col-auto px-0 copyright-by"> by  Solus</div>
           </div>
         </div>
       </div>
@@ -686,7 +600,6 @@ An easy way to make sure of that is to use the <code>config</code> fragment.</p>
     }
   </script>
       <script async defer src="/scripts/syna-main.min.cd8145396d841e5bda5c8959909ff196c53891cbf96c1cd997b29aa9e9c19fe6.js"></script>
-      <script async defer src="/scripts/syna-search.min.f3564a9d4763e26c7fffedcf5a498cac04fc37ea5b85270cc820849ff5453b98.js"></script>
       <script async defer src="/scripts/syna-react.min.c969a606d17230ee2373af53a88dce99187996d92858de5f0b55dbdffb035aff.js"></script>
       <script src='/counter.js'></script>
       <style>

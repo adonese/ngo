@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "/v2"
+baseurl = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Knowledge Consultancy Group"
@@ -73,7 +73,7 @@ lastmod = ["lastmod", ":git", "date"]
 # configurable.
 
 [[menu.main]]
-  url = "/fragments/member"
+  url = "/team"
   name = "Team"
   weight = 30
 

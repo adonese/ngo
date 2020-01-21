@@ -4,10 +4,10 @@ weight = 30
 date = "2017-10-17"
 
 position = "Chairperson"
-reports_to = "Lead Gophineer"
-lives_in = "[Iceland](https://www.google.com/maps/place/Iceland/)"
+#reports_to = "Lead Gophineer"
+#lives_in = "[Iceland](https://www.google.com/maps/place/Iceland/)"
 scope = [
-  "Gopherineering for various tasks",
+  "Consultanting for various tasks",
   "Contributor for [Goper Team A](#)",
   "Gopher Community Member"
 ]

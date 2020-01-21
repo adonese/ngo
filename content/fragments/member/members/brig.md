@@ -3,9 +3,9 @@ title = "Mr. Brig Gen Moh. Elmahdi"
 weight = 20
 date = "2017-10-17"
 
-position = "Gopherineer"
-reports_to = "Lead Gophineer"
-lives_in = "[Iceland](https://www.google.com/maps/place/Iceland/)"
+position = "Consultant"
+#reports_to = "Lead Gophineer"
+#lives_in = "[Iceland](https://www.google.com/maps/place/Iceland/)"
 scope = [
 "Protection", "Child Protection"
 ]
