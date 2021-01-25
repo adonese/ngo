@@ -1,0 +1,7 @@
+[user]
+	email = mmbusif@gmail.com
+	name = Mohamed Yousif
+[winUpdater]
+	recentlySeenVersion = 2.25.0.windows.1
+[core]
+	autocrlf = true
